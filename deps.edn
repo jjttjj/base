@@ -1,0 +1,38 @@
+{:deps
+ {org.clojure/clojure        {:mvn/version "1.10.1"}
+  org.clojure/core.async     {:mvn/version "0.6.532"}
+  ;;logging
+  org.clojure/tools.logging  {:mvn/version "1.0.0"}
+  com.taoensso/timbre        {:mvn/version "4.10.0"}
+  ;;web
+  com.taoensso/sente         {:mvn/version "1.15.0"}
+  ;;web: server
+  ring                       {:mvn/version "1.8.0"}
+  ring/ring-defaults         {:mvn/version "0.3.2"}
+  compojure                  {:mvn/version "1.6.1"}
+  hiccup                     {:mvn/version "1.0.5"}
+  http-kit                   {:mvn/version "2.3.0"}
+  clj-http                   {:mvn/version "3.10.0"}
+  ;;web:client
+  thheller/shadow-cljs       {:mvn/version "2.8.69"}
+  ;;data
+  org.clojure/data.csv       {:mvn/version "1.0.0"}
+  semantic-csv               {:mvn/version "0.2.1-alpha1"}
+  cheshire                   {:mvn/version "5.8.1"}
+  ;;transit/serialization
+  com.cognitect/transit-clj  {:mvn/version "0.8.319"}
+  com.cognitect/transit-cljs {:mvn/version "0.8.256"}
+  com.cognitect/transit-js   {:mvn/version "0.8.861"}
+  com.taoensso/nippy         {:mvn/version "2.15.0-RC1"} 
+  ;;component
+  riverford/objection        {:mvn/version "0.1.2-SNAPSHOT"}
+  ;;util
+  medley                     {:mvn/version "1.2.0"}
+  zprint                     {:mvn/version "0.5.3"}
+  net.cgrand/xforms          {:mvn/version "0.19.2"}
+  tick                       {:mvn/version "0.4.17-alpha"}
+  time-literals-transit
+  {:git/url "https://gist.github.com/jjttjj/6bc0b62ef1dbf29c1c69ea22f8eb7f55"
+   :sha     "2345014effd1ce7089d2b847808d4bbcf2c38a3b"}  
+  backtick                   {:mvn/version "0.3.4"}}
+ :paths   ["src" "resources"]}
