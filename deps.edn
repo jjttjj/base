@@ -35,4 +35,4 @@
   {:git/url "https://gist.github.com/jjttjj/6bc0b62ef1dbf29c1c69ea22f8eb7f55"
    :sha     "2345014effd1ce7089d2b847808d4bbcf2c38a3b"}  
   backtick                   {:mvn/version "0.3.4"}}
- :paths   ["src" "resources"]}
+ :paths   ["src"]}
